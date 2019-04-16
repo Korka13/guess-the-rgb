@@ -35,7 +35,7 @@ function setupSquares(){
 			var clickedColor = this.style.backgroundColor;
 			// compare to the pickedColor
 			if(clickedColor === pickedColor){
-				messageDisplay.textContent = "Yeeeesss!!!";
+				messageDisplay.textContent = "Yeeeessss!!!";
 				setAllCorrectColor(clickedColor);
 				header.style.backgroundColor = clickedColor;
 				resetButton.textContent = "Play Again";

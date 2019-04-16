@@ -9,7 +9,7 @@ h1, h2 {
 	height: 15vh;
 	line-height: 15vh;
 	margin: 0;
-	font-size: 8vw;
+	font-size: 7.5vw;
 }
 
 .header {
@@ -20,7 +20,7 @@ h1, h2 {
 }
 
 #colorDisplay {
-	font-size: 12vw;
+	font-size: 11.8vw;
 	text-transform: uppercase;
 }
 
@@ -37,8 +37,9 @@ button {
 	background: none;
 	text-transform: uppercase;
 	font-family: 'Dokdo', cursive;
-	height: 100%;
-	font-size: 4vw;
+	height: 10vh;
+	max-height: 3rem;
+	font-size: 3.5vw;
 	color: #fff;
 	letter-spacing: 1px;
 	transition: background-color 0.4s, color 0.4s;
@@ -59,16 +60,28 @@ button:hover {
 }
 
 #message {
+	text-align: center;
 	color: #fff;
 	display: inline-block;
-	width: 30vw;
+	width: 24vw;
 	font-size: 4vw;
 	max-height: 100%;
 	line-height: 3rem;
 }
 
+#github a i{
+	font-size: 2rem;
+	height: 3rem;
+	line-height: 3rem;
+	display:inline-block;
+    width: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #fcfcfc;
+}
+
 .container {
-	margin: 10px;
+	margin: 0 10px;
 }
 
 .colors {
@@ -100,7 +113,7 @@ button:hover {
   	font-size: 4rem;
 	}
 	#colorDisplay {
-  	font-size: 7rem;
+  	font-size: 6.8rem;
 	}
 	button {
      font-size: 2rem;
