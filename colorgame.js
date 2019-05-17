@@ -90,3 +90,17 @@ function randomColor(){
 	var b = Math.floor(Math.random() * 256);
 	return "rgb(" + r + ", " + g + ", " + b + ")";
 }
+
+window.onload = function() {
+
+	var faviconIndex = 0;
+	var favicon = document.getElementById('favicon');
+  
+	setInterval(function() {
+		if (faviconIndex > 5){
+			faviconIndex = 0
+		}
+			favicon.href = faviconIndex + ".ico";
+			faviconIndex++;
+	  }, 500);
+  };
