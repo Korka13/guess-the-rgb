@@ -104,3 +104,5 @@ window.onload = function() {
 			faviconIndex++;
 	  }, 500);
   };
+
+window.scrollTo(0, 1);
