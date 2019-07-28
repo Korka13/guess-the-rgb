@@ -134,10 +134,14 @@ button:hover {
 		font-size: 12vh;
 	  }
 	  #colorDisplay {
-		font-size: 20vh;
+		font-size: 18vh;
 	  }
 	  button {
 	   font-size: 7vh;
+	   max-height: none;
+	  }
+	  #stripe {
+		  max-height: none;
 	  }
 	  #message {
 		font-size: 7vh;
@@ -146,5 +150,6 @@ button:hover {
 	  #github a i{
 		font-size: 7vh;
 		line-height: 10vh;
+		padding: 0 10px;
 	}
   }
